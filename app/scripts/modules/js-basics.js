@@ -47,22 +47,7 @@
     };
 
     JS_BASICS.reverseString = function(str) {
-        // str will be an string
-        // Return a new string who's characters are in the opposite order to str's.
-	//var x=new Array();
-	/*var tab=str.split(".");
-	var t=new Array(tab.length);
-	for(var i=0;i<tab.length;i++){
-		 t[i]=tab[i].reverse();
-	}
-	return t; */
-	//var x=str.reverse();
-	/*var x=str;
-	
-	if(typeof str === 'string'){
-	       for (var i=x.length-1;i>-1;i--) x[x.length-1-i]=str[i];
-	       return x; 
-	}*/
+       
 	 return str.split("").reverse().join("");
 	
     };
@@ -74,14 +59,7 @@
 	var x1=str.split("").reverse().join("").replace(" ","").toLowerCase();
 	var x2=str.split("").join("").replace(" ","").toLowerCase();
 	
-	/*	return true;
-	       for (var i=0;i<x1.length;i++){ 
-			if(x1[i]!=x2[x2.length-1 -i]){
-				return false;
-				
-				
-			}
-		} */
+	
 			
 	    return x1 == x2;
 				
